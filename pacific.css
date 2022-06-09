@@ -22,12 +22,12 @@ header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 nav {
 	background-color: inherit;
 	float: left;
-    width: 160px;
-    padding-top: 20px 5px 0px 20px;
+        width: 160px;
+        padding-top: 20px 5px 0px 20px;
 }
 
 #content { 
-    background-color: #FFFFFF;
+        background-color: #FFFFFF;
 	margin-left: 200px;
 	border: 30px white solid;
 }
@@ -77,9 +77,9 @@ h1 {
 	background-image: url(sunset.jpg);
 	padding: 10px;
 	color: #FFFFFF;
-    background-repeat: no-repeat;
-    margin-bottom: 0;
-    background-position: right;
+        background-repeat: no-repeat;
+        margin-bottom: 0;
+        background-position: right;
 	background-color: #000029;
 }
 h2 {
@@ -108,7 +108,7 @@ dt {
 footer {
 	font-family: Georgia, "Times New Roman", serif;
 	text-align:left;
-    padding: 10px 10px 10px 10px;
-    background-color: #FFFFFF;
-    margin-left: 200px;
+        padding: 10px 10px 10px 10px;
+        background-color: #FFFFFF;
+        margin-left: 200px;
 }
