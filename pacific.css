@@ -1,0 +1,114 @@
+/*
+File: pacific.css
+GUI Assignment: Style a Site with External CSS
+Yingchi Lin, UMass Lowell Computer Science, Yingchi_Lin@student.uml.edu
+Copyright (c) 2021 by Yingchi. All rights reserved. May be freely copied or excerpted for educational purposes with credit to the author.
+June 6, 2022
+*/
+
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+
+#wrapper {
+	width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+	background-color: #88bdd7;
+	min-width: 600px;
+	max-width: 1000px;
+}
+
+nav {
+	background-color: inherit;
+	float: left;
+    width: 160px;
+    padding-top: 20px 5px 0px 20px;
+}
+
+#content { 
+    background-color: #FFFFFF;
+	margin-left: 200px;
+	border: 30px white solid;
+}
+
+#content img {
+	float:left;
+	padding: 0px 20px 0px 0px;
+}
+
+
+body {
+	margin: 0;
+	background-image: url(ptrbackground.jpg);
+	background-color: #00569f;
+	color: #666666;
+	margin-bottom: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+	display: inline-block;
+}
+
+nav ul {
+	font-size: 1.2em;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #000029;
+}
+
+nav ul li {
+	list-style-type: none;
+}
+
+nav a:visited {
+	color: #000029;
+}
+
+nav a:hover {
+	color: #FFFFFF;
+}
+h1 {
+	margin:0;
+	border:0;
+	background-image: url(sunset.jpg);
+	padding: 10px;
+	color: #FFFFFF;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+    background-position: right;
+	background-color: #000029;
+}
+h2 {
+	color: #3399CC;
+}
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+.resort{
+	color: #59a5cb;
+}
+#contact {
+	font-size: 90%;
+}
+
+#content li {
+	list-style-image: url(marker.gif); 
+}
+
+
+dt {
+	color: #000033;
+}
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	text-align:left;
+    padding: 10px 10px 10px 10px;
+    background-color: #FFFFFF;
+    margin-left: 200px;
+}
