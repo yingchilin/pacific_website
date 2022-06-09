@@ -12,8 +12,8 @@ header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 
 #wrapper {
 	width: 80%;
-    margin-right: auto;
-    margin-left: auto;
+        margin-right: auto;
+        margin-left: auto;
 	background-color: #88bdd7;
 	min-width: 600px;
 	max-width: 1000px;
